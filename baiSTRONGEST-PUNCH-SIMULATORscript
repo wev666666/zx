@@ -290,6 +290,7 @@ A3.MouseButton1Down:connect(function()
         if A3.Text=="自动去下一个地图（开）" then
             firesignal(game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui["Menu_Frame"]["MapTeleportation_Frame"]["NextMap_ImgBtn"].Activated)
         end
+        end
     end)
 
 A4.Name = "A4"
@@ -311,6 +312,7 @@ A4.MouseButton1Down:connect(function()
     
         if A4.Text=="自动升级宠物（开）" then
             firesignal(game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui["Pet_Frame"]["UpgradePet_Btn"].Activated)
+        end
         end
     end)
 
